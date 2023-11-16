@@ -30,7 +30,7 @@ applications, and override various methods defined on those classes. The Android
 system will call these methods in a poorly-defined order that effectively
 results in this completely absurd state machine:
 
-![Lifecycle](lifecyle.png)
+![lifecycle.png](lifecycle.png)
 
 Note that there is not just one of these state machines: There is one of these
 state machines _for every `Activity` and `Fragment` instance in the application,
